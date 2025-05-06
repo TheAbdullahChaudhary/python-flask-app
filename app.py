@@ -6,7 +6,7 @@ def create_app():
 
     @app.route('/')
     def home():
-        return 'Well done! Testing the Pipeline Execution '
+        return 'Well done Abdullah! Its Blue ENV. '
 
     return app
 if __name__ == '__main__':
